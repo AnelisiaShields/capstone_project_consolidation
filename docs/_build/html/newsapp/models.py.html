@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset='utf-8'><title>newsapp/models.py</title></head><body><h1>newsapp/models.py</h1>
+<h2>Module description</h2>
+<p>Database models for the 'newsapp' application.<br><br>Defines the data structure for:<br>- Publisher: An entity that publishes articles (e.g., a newspaper).<br>- CustomUser: An extended User model with roles (Reader, Editor, Journalist).<br>- Article: A news article written by a User.</p>
+<h2>Contents</h2>
+<ul><li><strong>Class Publisher</strong><div>Represents an organization that publishes articles.<br>(e.g., "The Daily News").</div></li><li><strong>Class CustomUser</strong><div>A custom user model extending AbstractUser.<br><br>Includes a 'role' to differentiate between Readers, Editors,<br>and Journalists, and fields for managing subscriptions.</div></li><li><strong>Class Article</strong><div>Represents a news article.<br><br>An article is written by a User (author) and can be<br>optionally associated with a Publisher.</div></li></ul>
+</body></html>

@@ -1,0 +1,14 @@
+{% extends "newsapp/base.html" %}
+{% block content %}
+  <h2>Latest Articles</h2>
+  <ul>
+  {% for article in articles %}
+    <li>
+      <a href="{% url 'article_detail' article.pk %}">{{ article.title }}</a>
+      by {{ article.author }}
+    </li>
+  {% empty %}
+    <li>No articles found.</li>
+  {% endfor %}
+  </ul>
+{% endblock %}

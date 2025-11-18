@@ -1,0 +1,5 @@
+# Auto-generated best-effort requirements. Please verify with `pip freeze` in your environment.
+Django>=4.0
+Django>=4.0,<5.0
+djangorestframework
+gunicorn

@@ -1,0 +1,8 @@
+{% extends "newsapp/base.html" %}
+{% block content %}
+  <article>
+    <h2>{{ article.title }}</h2>
+    <p>By {{ article.author }} | {{ article.created_at }}</p>
+    <div>{{ article.content }}</div>
+  </article>
+{% endblock %}

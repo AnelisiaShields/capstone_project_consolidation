@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset='utf-8'><title>newsapp/views.py</title></head><body><h1>newsapp/views.py</h1>
+<h2>Module description</h2>
+<p>Django views and API endpoints for the 'newsapp' application.<br><br>Provides function-based views for rendering article lists and details,<br>and a class-based API view for listing approved articles.</p>
+<h2>Contents</h2>
+<ul><li><strong>Function index</strong><div>Displays a list of all approved articles, ordered by creation date.<br><br>:param request: The HttpRequest object.<br>:return: An HttpResponse rendering the article list page.</div></li><li><strong>Function detail</strong><div>Displays the detail page for a single, approved article.<br><br>:param request: The HttpRequest object.<br>:param pk: The primary key of the article.<br>:return: An HttpResponse rendering the article detail page.</div></li><li><strong>Class ArticleListAPI</strong><div>API endpoint to list all approved articles.<br><br>Supports optional query parameters:<br>- ?publisher=<id>: Filter articles by publisher ID.<br>- ?journalist=<id>: Filter articles by author/journalist ID.</div></li></ul>
+</body></html>
