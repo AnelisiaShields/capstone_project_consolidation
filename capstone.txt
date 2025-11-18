@@ -1,7 +1,4 @@
 
 Capstone submission for news_capstone
 
-Please upload a link to your public GitHub repository here.
-Example: https://github.com/yourusername/news_capstone
-
-(Replace this placeholder with your actual GitHub repo link before final submission.)
+Example: https://github.com/AnelisiaShields/capstone_project_consolidation/blob/container/capstone.txt
